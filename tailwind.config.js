@@ -8,8 +8,22 @@ export default {
     fontFamily: {
       'poppins': ['Poppins', 'ui-sans-serif', 'system-ui', '-apple-system']
     },
-    extend: {
 
+    extend: {
+      colors: {
+        // Configure your color palette here
+        'cerebralOrange': {
+          500: '#ED9B18',
+          600: '#F58A07',
+        },
+        'cerebralRed': '#DC141C',
+        'cerebralGrey': {
+          500: '#5B5B5B',
+          600: '#1D3444',
+          700: '#0D1317',
+        },
+        'cerebralBlue': '#DCEEFD'
+      },
     },
   },
   plugins: [],
