@@ -26,7 +26,7 @@ export const HowWeStandOut = () => {
     <div className="bg-cerebralBlue">
       <div className="max-w-7xl mx-auto py-20 px-6 xl:px-0">
         {/* title and writeup */}
-        <div className="mb-16 flex justify-between gap-10">
+        <div className="mb-16 flex flex-col md:flex-row justify-between md:gap-10">
           <h2 className=" text-4xl font-semibold mb-8 text-cerebralGrey-600 flex-1">
             How We Stand Out
           </h2>
