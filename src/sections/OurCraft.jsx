@@ -1,5 +1,6 @@
 import React from "react";
 import ImageWithParallelText from "../components/ImageWithParallelText";
+import ourCraftImage from "../assets/svg/ourCraft.svg";
 
 const OurCraft = () => {
   const content = (
@@ -20,10 +21,7 @@ const OurCraft = () => {
   return (
     <div className="py-8 sm:py-12 md:py-20 px-3 md:px-5 xl:px-0">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8  max-w-7xl bg-cerebralBlue-200 rounded-3xl">
-        <ImageWithParallelText
-          content={content}
-          imageSrc="/src/assets/svg/ourCraft.svg"
-        />
+        <ImageWithParallelText content={content} imageSrc={ourCraftImage} />
       </div>
     </div>
   );

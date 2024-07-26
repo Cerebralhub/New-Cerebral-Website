@@ -1,5 +1,6 @@
 import React from "react";
 import ImageWithParallelText from "../components/ImageWithParallelText";
+import creativeJumpstartImg from "../assets/svg/creativeJumpstart.svg";
 
 const CreativeJumpstart = () => {
   const content = (
@@ -35,7 +36,7 @@ const CreativeJumpstart = () => {
     <>
       <ImageWithParallelText
         content={content}
-        imageSrc="/src/assets/svg/creativeJumpstart.svg"
+        imageSrc={creativeJumpstartImg}
       />
     </>
   );

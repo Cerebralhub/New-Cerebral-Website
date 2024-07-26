@@ -1,4 +1,5 @@
 import React from "react";
+import joinOurTeamImg from "../assets/svg/progressiveCareer.svg";
 
 const JoinOurTeam = () => {
   return (
@@ -6,7 +7,7 @@ const JoinOurTeam = () => {
       {/* image  */}
       <div className="h-full w-full flex-1">
         <img
-          src="/src/assets/svg/progressiveCareer.svg"
+          src={joinOurTeamImg}
           alt="woman holding a coffee cup"
           className="object-cover h-full w-full"
         />

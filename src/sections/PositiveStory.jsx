@@ -1,5 +1,7 @@
 import React from "react";
 import ImageWithParallelText from "../components/ImageWithParallelText";
+import positiveStoryImage from "../assets/svg/positiveStoryImg.svg";
+import positiveStoryPfp from "../assets/svg/positiveStoryPFP.svg";
 
 const PositiveStory = () => {
   const content = (
@@ -13,7 +15,7 @@ const PositiveStory = () => {
       </p>
       <div className="flex items-center  space-x-8">
         <div>
-          <img src="/src/assets/svg/positiveStoryPFP.svg" alt="" />
+          <img src={positiveStoryPfp} alt="" />
         </div>
         <div>
           <p className="text-cerebralBlue-700 font-medium text-base sm:text-lg">
@@ -28,10 +30,7 @@ const PositiveStory = () => {
   );
   return (
     <div>
-      <ImageWithParallelText
-        imageSrc="/src/assets/svg/positiveStoryImg.svg"
-        content={content}
-      />
+      <ImageWithParallelText imageSrc={positiveStoryImage} content={content} />
     </div>
   );
 };
