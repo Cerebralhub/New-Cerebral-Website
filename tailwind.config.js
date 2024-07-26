@@ -22,7 +22,11 @@ export default {
           600: '#1D3444',
           700: '#0D1317',
         },
-        'cerebralBlue': '#DCEEFD'
+        'cerebralBlue': {
+          200: '#EDF7FF',
+          400: '#DCEEFD',
+          700: '#063255'
+        }
       },
     },
   },

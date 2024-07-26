@@ -10,33 +10,46 @@ const Navbar = () => {
   };
 
   return (
-    <header className="max-w-7xl mx-auto px-6 xl:px-0">
+    <header className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
       <div className="flex justify-between items-center py-7">
         {/* logo */}
-        <div>
+        <Link to="/">
           <img src={logo} alt="Cerebral Logo" />
-        </div>
+        </Link>
         {/* navbar */}
         <nav className="hidden md:block">
           <ul className="flex font-semibold *:px-7 *:py-2 *:rounded-full">
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
-              <Link to="/services">Services</Link>
-            </li>
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
-              Work
-            </li>
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
-              Blog
-            </li>
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
+            <Link
+              to="/"
+              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about-us"
+              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
+            >
               About
-            </li>
-            <li className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
-              <Link to="/contact">Contact</Link>
-            </li>
+            </Link>
+            <Link
+              to="/services"
+              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
+            >
+              Services
+            </Link>
+            <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
+              Work
+            </Link>
+            <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
+              Blog
+            </Link>
+
+            <Link
+              to="/contact"
+              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
+            >
+              Contact
+            </Link>
           </ul>
         </nav>
         {/* hamburger icon */}
@@ -96,43 +109,28 @@ const Navbar = () => {
           </button>
         </div>
         <nav className="flex flex-col items-center space-y-6 py-4">
+          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+            Home
+          </a>
           <a
             href="/about-us"
             className="text-greyish-10 hover:text-black"
             onClick={toggleMenu}
           >
-            Home
-          </a>
-          <a
-            href="/fragg-group"
-            className="text-greyish-10 hover:text-black"
-            onClick={toggleMenu}
-          >
-            Services
-          </a>
-          <a
-            href="/services"
-            className="text-greyish-10 hover:text-black"
-            onClick={toggleMenu}
-          >
-            Work
-          </a>
-          <a
-            href="/impact-and-sustainability"
-            className="text-greyish-10 hover:text-black"
-            onClick={toggleMenu}
-          >
-            Blog
-          </a>
-          <a
-            href="/advisory"
-            className="text-greyish-10 hover:text-black"
-            onClick={toggleMenu}
-          >
             About
           </a>
+          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+            Services
+          </a>
+          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+            Work
+          </a>
+          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+            Blog
+          </a>
+
           <a
-            href="/advisory"
+            href="/contact"
             className="text-greyish-10 hover:text-black"
             onClick={toggleMenu}
           >
