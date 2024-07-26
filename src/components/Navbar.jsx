@@ -1,8 +1,15 @@
 import React, {useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import logo from "../assets/svg/Cerebral Logo.svg";
 
 const Navbar = () => {
+  const location = useLocation();
+
+  const getNavLinkClass = path => {
+    return location.pathname === path
+      ? "bg-cerebralOrange-600 text-white cursor-pointer"
+      : "hover:bg-cerebralOrange-600 hover:text-white cursor-pointer";
+  };
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -18,36 +25,24 @@ const Navbar = () => {
         </Link>
         {/* navbar */}
         <nav className="hidden md:block">
-          <ul className="flex font-semibold *:px-7 *:py-2 *:rounded-full">
-            <Link
-              to="/"
-              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
-            >
+          <ul className="flex gap-4 font-semibold *:px-7 *:py-2 *:rounded-full">
+            <Link to="/" className={getNavLinkClass("/")}>
               Home
             </Link>
-            <Link
-              to="/about-us"
-              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
-            >
+            <Link to="/about-us" className={getNavLinkClass("/about-us")}>
               About
             </Link>
-            <Link
-              to="/services"
-              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
-            >
+            <Link to="/services" className={getNavLinkClass("/services")}>
               Services
             </Link>
-            <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
+            <Link to="/work" className={getNavLinkClass("/work")}>
               Work
             </Link>
             <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
               Blog
             </Link>
 
-            <Link
-              to="/contact"
-              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
-            >
+            <Link to="/contact" className={getNavLinkClass("/contact")}>
               Contact
             </Link>
           </ul>
@@ -109,33 +104,48 @@ const Navbar = () => {
           </button>
         </div>
         <nav className="flex flex-col items-center space-y-6 py-4">
-          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+          <Link
+            to="/"
+            className="text-greyish-10 hover:text-black"
+            onClick={toggleMenu}
+          >
             Home
-          </a>
-          <a
-            href="/about-us"
+          </Link>
+          <Link
+            to="/about-us"
             className="text-greyish-10 hover:text-black"
             onClick={toggleMenu}
           >
             About
-          </a>
-          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+          </Link>
+          <Link
+            to="/services"
+            className="text-greyish-10 hover:text-black"
+            onClick={toggleMenu}
+          >
             Services
-          </a>
-          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+          </Link>
+          <Link
+            to="/work"
+            className="text-greyish-10 hover:text-black"
+            onClick={toggleMenu}
+          >
             Work
-          </a>
-          <a className="text-greyish-10 hover:text-black" onClick={toggleMenu}>
+          </Link>
+          <Link
+            className="text-greyish-10 hover:text-black"
+            onClick={toggleMenu}
+          >
             Blog
-          </a>
+          </Link>
 
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-greyish-10 hover:text-black"
             onClick={toggleMenu}
           >
             Contact
-          </a>
+          </Link>
         </nav>
       </div>
     </header>

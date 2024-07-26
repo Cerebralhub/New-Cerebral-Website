@@ -25,6 +25,7 @@ export default {
         'cerebralBlue': {
           200: '#EDF7FF',
           400: '#DCEEFD',
+          500: '#C1E4FF',
           700: '#063255'
         }
       },

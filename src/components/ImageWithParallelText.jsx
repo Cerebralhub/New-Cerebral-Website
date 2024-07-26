@@ -7,7 +7,7 @@ const ImageWithParallelText = ({
 }) => {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-20 max-w-7xl">
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col md:flex-row items-center gap-8">
         {!imageOnRight && <ImageSection imageSrc={imageSrc} />}
         <ContentSection content={content} imageOnRight={imageOnRight} />
         {imageOnRight && <ImageSection imageSrc={imageSrc} />}
