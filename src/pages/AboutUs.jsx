@@ -1,12 +1,12 @@
 import React from "react";
 import PositiveStory from "../sections/PositiveStory";
 import ImageWithParallelText from "../components/ImageWithParallelText";
-import aboutHeroImage from "../assets/svg/aboutHeroImage.svg";
+import aboutHeroImage from "../assets/webp/aboutHeroImage.webp";
 import aboutImg2 from "../assets/svg/aboutImg2.svg";
-import staff1 from "../assets/svg/staff/Group 2074.svg";
-import staff2 from "../assets/svg/staff/Group 2075.svg";
-import staff3 from "../assets/svg/staff/Group 2076.svg";
-import staff4 from "../assets/svg/staff/Group 2077.svg";
+import staff1 from "../assets/webp/staff/Group 2074.webp";
+import staff2 from "../assets/webp/staff/Group 2075.webp";
+import staff3 from "../assets/webp/staff/Group 2076.webp";
+import staff4 from "../assets/webp/staff/Group 2077.webp";
 
 const AboutUs = () => {
   const staffImages = [staff1, staff2, staff3, staff4];
