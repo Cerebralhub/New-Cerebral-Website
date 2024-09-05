@@ -126,7 +126,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link
-            to="/work"
+            to="/our-work"
             className="text-greyish-10 hover:text-black"
             onClick={toggleMenu}
           >
