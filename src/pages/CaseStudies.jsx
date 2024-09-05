@@ -8,6 +8,10 @@ import npa from "../assets/png/NPA.png";
 import npaLogo from "../assets/png/npa-logo.png";
 import colloquim from "../assets/png/colloquim.png";
 import colloquimLogo from "../assets/png/colloquim-logo.png";
+import fccpc from "../assets/png/FCCPC.png";
+import fccpcLogo from "../assets/png/FCCPC-Logo.png";
+import nextLevel from "../assets/png/nextlevel.png";
+import nextlevelLogo from "../assets/png/apcLogo.png";
 
 const CaseStudies = () => {
   return (
@@ -46,6 +50,14 @@ const caseStudies = [
     pdfPath: "/pdfs/NERC.pdf",
   },
   {
+    image: fccpc,
+    icon: fccpcLogo,
+    title: "Federal Competition & Consumer Protection Commission ",
+    description:
+      "With our expertise in storytelling, 2D and 3D animation, graphic design, and other digital skills, we interpreted complex...",
+    pdfPath: "/pdfs/NERC.pdf",
+  },
+  {
     image: total,
     icon: totalLogo,
     title: "Keeping Up The Spirit",
@@ -54,19 +66,27 @@ const caseStudies = [
     pdfPath: "/pdfs/Total.pdf",
   },
   {
+    image: nextLevel,
+    icon: nextlevelLogo,
+    title: "NEXT LEVEL - All Progressive Congress",
+    description:
+      "Winning elections is about strategic, creative and responsive thinking engineered towards shaping and... ",
+    pdfPath: "/pdfs/Total.pdf",
+  },
+  {
     image: npa,
     icon: npaLogo,
     title: "Nigerian Port Authority",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Laoreet blandit scelerisque scelerisque facilisis iaculis mi. ",
+      "With concise detailing and simplified analysis, we projected complex information with our creative...",
     pdfPath: "/pdfs/NPA.pdf",
   },
   {
     image: colloquim,
     icon: colloquimLogo,
-    title: "Colloquium",
+    title: "The Bola Tinubu Colloquium",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Laoreet blandit scelerisque scelerisque facilisis iaculis mi. ",
+      "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
     pdfPath: "/pdfs/Colloquium.pdf",
   },
 ];
