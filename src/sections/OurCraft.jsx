@@ -1,6 +1,6 @@
 import React from "react";
 import ImageWithParallelText from "../components/ImageWithParallelText";
-import ourCraftImage from "../assets/svg/ourCraft.svg";
+import ourCraftImage from "../assets/webp/ourCraft.webp";
 
 const OurCraft = () => {
   const content = (

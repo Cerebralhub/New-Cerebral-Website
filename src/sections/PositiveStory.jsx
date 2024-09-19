@@ -19,10 +19,10 @@ const PositiveStory = () => {
         </div>
         <div>
           <p className="text-cerebralBlue-700 font-medium text-base sm:text-lg">
-            Chikelu Neo
+            Nduka Enweliku
           </p>
           <p className="text-cerebralOrange-600 font-medium text-sm sm:text-base">
-            CEO at MotoAI
+            COO, Cerebral Media
           </p>
         </div>
       </div>

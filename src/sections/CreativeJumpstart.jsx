@@ -1,6 +1,6 @@
 import React from "react";
 import ImageWithParallelText from "../components/ImageWithParallelText";
-import creativeJumpstartImg from "../assets/svg/creativeJumpstart.svg";
+import creativeJumpstartImg from "../assets/png/creativeJumpstart.png";
 
 const CreativeJumpstart = () => {
   const content = (

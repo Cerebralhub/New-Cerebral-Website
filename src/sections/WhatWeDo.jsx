@@ -1,7 +1,7 @@
 import React from "react";
-import contentCreationImage from "../assets/png/contentCreation.png";
-import policyAdvisoryImage from "../assets/png/policyAdvisory.png";
-import strategicCommunicationImage from "../assets/png/strategicCommunication.png";
+import contentCreationImage from "../assets/webp/contentCreation.webp";
+import policyAdvisoryImage from "../assets/webp/policyAdvisory.webp";
+import strategicCommunicationImage from "../assets/webp/strategicCommunication.webp";
 import arrowSvg from "../assets/svg/right-arrow-svg.svg";
 
 const features = [

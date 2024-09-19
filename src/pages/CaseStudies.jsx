@@ -12,6 +12,12 @@ import fccpc from "../assets/png/FCCPC.png";
 import fccpcLogo from "../assets/png/FCCPC-Logo.png";
 import nextLevel from "../assets/png/nextlevel.png";
 import nextlevelLogo from "../assets/png/apcLogo.png";
+import nesp from "../assets/png/nesp.png";
+import nespLogo from "../assets/png/nesp-logo.png";
+import gamsu from "../assets/png/gamsu.png";
+import gamsuLogo from "../assets/png/gamsu-logo.png";
+import sagegrey from "../assets/png/sage-grey.png";
+import sagegreyLogo from "../assets/png/sage-grey-logo.png";
 
 const CaseStudies = () => {
   return (
@@ -85,6 +91,30 @@ const caseStudies = [
     image: colloquim,
     icon: colloquimLogo,
     title: "The Bola Tinubu Colloquium",
+    description:
+      "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
+    pdfPath: "/pdfs/Colloquium.pdf",
+  },
+  {
+    image: nesp,
+    icon: nespLogo,
+    title: "Nigeria Economic Sustainability Plan",
+    description:
+      "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
+    pdfPath: "/pdfs/Colloquium.pdf",
+  },
+  {
+    image: gamsu,
+    icon: gamsuLogo,
+    title: "Gamaliel & Susan Onosode Foundation",
+    description:
+      "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
+    pdfPath: "/pdfs/Colloquium.pdf",
+  },
+  {
+    image: sagegrey,
+    icon: sagegreyLogo,
+    title: "Sage Grey Finance Limited",
     description:
       "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
     pdfPath: "/pdfs/Colloquium.pdf",

@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to="/services" className={getNavLinkClass("/services")}>
               Services
             </Link>
-            <Link to="/our-work" className={getNavLinkClass("/work")}>
+            <Link to="/our-work" className={getNavLinkClass("/our-work")}>
               Work
             </Link>
             <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">

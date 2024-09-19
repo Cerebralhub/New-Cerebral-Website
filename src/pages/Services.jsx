@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import servicesHeaderImage from "../assets/png/servicesHeaderImage.png";
+import servicesHeaderImage from "../assets/webp/servicesHeaderImage.webp";
 import ImageWithParallelText from "../components/ImageWithParallelText";
 import scImg from "../assets/svg/strategicCommsImg.svg";
 import pmImg from "../assets/svg/perceptionMgntImg.svg";

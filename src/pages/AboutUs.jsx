@@ -56,7 +56,7 @@ const AboutUs = () => {
             <p className="text-4xl font-bold text-cerebralOrange-600">30+</p>
             <p className="text-cerebralGrey-500 font-bold">
               Local and International Clients served (Please put logos of the
-              following - NPA, FCCPC, NERC, Simmon Coopers, etc
+              following - NPA, FCCPC, NERC, Simmon Cooper, etc
             </p>
           </div>
           <div>

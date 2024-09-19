@@ -6,11 +6,7 @@ const JoinOurTeam = () => {
     <div className="flex flex-col lg:flex-row">
       {/* image  */}
       <div className="h-full w-full flex-1">
-        <img
-          src={joinOurTeamImg}
-          alt="woman holding a coffee cup"
-          className="object-cover h-full w-full"
-        />
+        <img src={joinOurTeamImg} className="object-cover h-full w-full" />
       </div>
       {/* writeup */}
       <div className="bg-cerebralOrange-500 flex items-center text-white py-16 lg;py-0 flex-1">
