@@ -82,7 +82,7 @@ const caseStudies = [
   {
     image: npa,
     icon: npaLogo,
-    title: "Nigerian Port Authority",
+    title: "Nigerian Ports Authority",
     description:
       "With concise detailing and simplified analysis, we projected complex information with our creative...",
     pdfPath: "/pdfs/NPA.pdf",

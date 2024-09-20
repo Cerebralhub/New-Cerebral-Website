@@ -2,10 +2,10 @@ import React from "react";
 import {Link} from "react-router-dom";
 import servicesHeaderImage from "../assets/webp/servicesHeaderImage.webp";
 import ImageWithParallelText from "../components/ImageWithParallelText";
-import scImg from "../assets/svg/strategicCommsImg.svg";
-import pmImg from "../assets/svg/perceptionMgntImg.svg";
-import paImg from "../assets/svg/policyAdvisory.svg";
-import ccImg from "../assets/svg/contentCreation.svg";
+import scImg from "../assets/webp/strategicCommsImg.webp";
+import pmImg from "../assets/webp/perceptionMgntImg.webp";
+import paImg from "../assets/webp/policyAdvisoryService.webp";
+import ccImg from "../assets/webp/contentCreationService.webp";
 
 export const Services = () => {
   const heroContent = (
