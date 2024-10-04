@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import joinOurTeamImg from "../assets/svg/progressiveCareer.svg";
 
 const JoinOurTeam = () => {
@@ -15,7 +16,7 @@ const JoinOurTeam = () => {
             Our craft lets you get your ideas across.
           </h1>
           <button className="text-cerebralOrange-600 bg-white rounded-full px-5 py-3">
-            See Job Vacancies
+            <Link to="/join-us">See Job Vacancies</Link>
           </button>
         </div>
       </div>

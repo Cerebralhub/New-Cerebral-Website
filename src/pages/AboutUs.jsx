@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import PositiveStory from "../sections/PositiveStory";
 import ImageWithParallelText from "../components/ImageWithParallelText";
 import aboutHeroImage from "../assets/webp/aboutHeroImage.webp";
@@ -20,7 +21,7 @@ const AboutUs = () => {
         Because your ideas matter, we won&apos;t let them go to waste!
       </p>
       <button className="text-white bg-cerebralOrange-600 rounded-full px-5 py-3">
-        Work With Us
+        <Link to="/contact"> Work With Us</Link>
       </button>
     </>
   );
