@@ -45,7 +45,7 @@ export const WhatWeDo = () => {
           </p>
         </div>
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 space-y-8 md:space-y-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-8 md:space-y-0 gap-4">
           {features.map((feature, index) => (
             <div key={index}>
               <img src={feature.image} alt="" className="mb-5" />
