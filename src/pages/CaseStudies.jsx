@@ -61,7 +61,7 @@ const caseStudies = [
     title: "Federal Competition & Consumer Protection Commission ",
     description:
       "With our expertise in storytelling, 2D and 3D animation, graphic design, and other digital skills, we interpreted complex...",
-    pdfPath: "/pdfs/NERC.pdf",
+    pdfPath: "/pdfs/fccpc.pdf",
   },
   {
     image: total,
@@ -109,7 +109,7 @@ const caseStudies = [
     title: "Gamaliel & Susan Onosode Foundation",
     description:
       "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
-    pdfPath: "/pdfs/Colloquium.pdf",
+    pdfPath: "/pdfs/gamsu.pdf",
   },
   {
     image: sagegrey,
@@ -117,6 +117,6 @@ const caseStudies = [
     title: "Sage Grey Finance Limited",
     description:
       "As content partners, we produced thematic content – publications, illustrated books, posters, magazines...",
-    pdfPath: "/pdfs/Colloquium.pdf",
+    pdfPath: "/pdfs/sageGray.pdf",
   },
 ];
