@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import ImageWithParallelText from "../components/ImageWithParallelText";
 import ourCraftImage from "../assets/webp/ourCraft.webp";
 
@@ -14,7 +15,7 @@ const OurCraft = () => {
         well-interpreted, and literally, anyone can get it!
       </p>
       <p className="text-cerebralOrange-600 text-sm sm:text-base underline hover:no-underline cursor-pointer">
-        See all services
+        <Link to="/services">See all services</Link>
       </p>
     </>
   );

@@ -53,14 +53,14 @@ export const WhatWeDo = () => {
                 {feature.title}
               </h3>
               <p className="w-11/12 text-cerebralGrey-500">{feature.body}</p>
-              <div className="group font-semibold flex items-center py-3 w-fit text-cerebralOrange-600">
+              {/* <div className="group font-semibold flex items-center py-3 w-fit text-cerebralOrange-600">
                 <p>{feature.actionButtonText}</p>
                 <img
                   src={arrowSvg}
                   alt="right arrow"
                   className="h-6 ml-2 group-hover:translate-x-2 duration-500"
                 />
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

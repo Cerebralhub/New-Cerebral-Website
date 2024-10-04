@@ -16,7 +16,7 @@ const Footer = () => {
         .
       </div>
 
-      <div className="max-w-7xl mx-auto pt-12 md:pt-20 pb-8 md:pb-16 px-4 sm:px-6 xl:px-0">
+      <div className="max-w-7xl mx-auto pt-12 md:pt-20 pb-8 md:pb-16 px-4 sm:px-16 2xl:px-0">
         {/* main footer */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
           {/* logo */}
