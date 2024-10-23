@@ -38,9 +38,15 @@ const Navbar = () => {
             <Link to="/our-work" className={getNavLinkClass("/our-work")}>
               Work
             </Link>
-            <Link className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer">
+
+            <a
+              href="https://medium.com/@info_53453"
+              target="__blank"
+              className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
+            >
+              {" "}
               Blog
-            </Link>
+            </a>
 
             <Link to="/contact" className={getNavLinkClass("/contact")}>
               Contact
