@@ -2,27 +2,28 @@ import React from "react";
 import {Link} from "react-router-dom";
 import PositiveStory from "../sections/PositiveStory";
 import ImageWithParallelText from "../components/ImageWithParallelText";
-import aboutHeroImage from "../assets/webp/aboutHeroImage.webp";
+import aboutHeroImage from "../assets/webp/aboutHero2.webp";
 import aboutImg2 from "../assets/svg/aboutImg2.svg";
 import staff1 from "../assets/webp/staff/Group 2074.webp";
 import staff2 from "../assets/webp/staff/Group 2075.webp";
 import staff3 from "../assets/webp/staff/Group 2076.webp";
 import staff4 from "../assets/webp/staff/Group 2077.webp";
+import FAQ from "../components/FAQ";
 
 const AboutUs = () => {
   const staffImages = [staff1, staff2, staff3, staff4];
   const heroContent = (
     <>
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
-        We are a hub for fresh and workable ideas, transforming these ideas into
-        impactful solutions that matter.
+        “Building Brands with Bold, Creative Vision”
       </h1>
       <p className="text-cerebralGrey-500 mb-8 text-sm sm:text-base">
-        Because your ideas matter, we won&apos;t let them go to waste!
+        At Cerebral Hub, we are dedicated to bringing brands to life through
+        purposeful, engaging digital experiences.
       </p>
-      <button className="text-white bg-cerebralOrange-600 rounded-full px-5 py-3">
+      {/* <button className="text-white bg-cerebralOrange-600 rounded-full px-5 py-3">
         <Link to="/contact"> Work With Us</Link>
-      </button>
+      </button> */}
     </>
   );
 
@@ -46,9 +47,9 @@ const AboutUs = () => {
             Our Works Speak For Us
           </h2>
           <p className="text-sm sm:text-base text-cerebralGrey-500 lg:w-1/2">
-            We create meaningful content, advise on and incubate public policy
-            as well as simplify information. Our team of professionals is always
-            on the ground to help interpret and express your idea.
+            We&apos;re not just a service provider; we&apos;re your strategic
+            partner, committed to driving meaningful growth and helping your
+            brand leave a lasting impression.
           </p>
         </div>
         {/* grid statistics */}
@@ -81,29 +82,29 @@ const AboutUs = () => {
         </div>
       </div>
       {/* we are here to work with you */}
-      <ImageWithParallelText content={sec2Content} imageSrc={aboutImg2} />
+      {/* <ImageWithParallelText content={sec2Content} imageSrc={aboutImg2} /> */}
       {/* our work speaks for us */}
-      {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-20 max-w-7xl"> */}
-      {/* parallel texts */}
-      {/* <div className="mb-8 sm:mb-12 md:mb-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-20 max-w-7xl">
+        {/* parallel texts */}
+        <div className="mb-8 sm:mb-12 md:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
-            Teamwork is the only <br className="hidden md:block" /> way we work
+            Meet the Team
           </h2>
-          <p className="text-sm sm:text-base text-cerebralGrey-500 lg:w-1/2">
+          {/* <p className="text-sm sm:text-base text-cerebralGrey-500 lg:w-1/2">
             We create meaningful content, advise on and incubate public policy
             as well as simplify information. Our team of professionals is always
             on the ground to help interpret and express your idea.
-          </p>
-        </div> */}
-      {/* grid images */}
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 justify-items-center">
+          </p> */}
+        </div>
+        {/* grid images */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 justify-items-center">
           {staffImages.map((image, index) => {
             return <img src={image} alt="" />;
           })}
-        </div> */}
-      {/* </div> */}
-      {/* positive story */}
-      <PositiveStory />
+        </div>
+      </div>
+      {/* faq */}
+      <FAQ />
     </div>
   );
 };

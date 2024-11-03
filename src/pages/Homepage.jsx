@@ -1,11 +1,12 @@
 import React from "react";
 import HeroSection from "../sections/HeroSection";
-import {WhatWeDo} from "../sections/WhatWeDo";
-import {HowWeStandOut} from "../sections/HowWeStandOut";
+import {OurProcess} from "../sections/OurProcess";
+import {WhyChooseCerebralHub} from "../sections/WhyChooseCerebralHub";
 import CreativeJumpstart from "../sections/CreativeJumpstart";
 import OurCraft from "../sections/OurCraft";
-import JoinOurTeam from "../sections/JoinOurTeam";
+import TheExperience from "../sections/TheExperience";
 import PositiveStory from "../sections/PositiveStory";
+import ClientsServed from "../sections/ClientsServed";
 
 const Homepage = () => {
   return (
@@ -13,18 +14,20 @@ const Homepage = () => {
       <div>
         {/* hero section */}
         <HeroSection />
-        {/* What we do */}
-        <WhatWeDo />
-        {/* Building Software Solution */}
-        <HowWeStandOut />
+        {/* OurProcess */}
+        <OurProcess />
+        {/* TheExperience */}
+        <TheExperience />
+        {/* clients served */}
+        <ClientsServed />
+        {/* WhyChooseCerebralHub */}
+        <WhyChooseCerebralHub />
         {/* creating jumpstart */}
-        <CreativeJumpstart />
+        {/* <CreativeJumpstart /> */}
         {/* our craft */}
-        <OurCraft />
-        {/* joint out team */}
-        <JoinOurTeam />
+        {/* <OurCraft /> */}
         {/* positive story */}
-        <PositiveStory />
+        {/* <PositiveStory />  */}
       </div>
     </div>
   );
