@@ -15,14 +15,11 @@ const ClientsServed = () => {
         <h2 className="text-3xl sm:text-4xl md:text-5xl text-center font-semibold mb-10 text-cerebralGrey-600">
           Clients Served
         </h2>
-        <div class="grid justify-items-center grid-cols-2 gap-8 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 ">
+        <div class="grid justify-items-center gap-8 sm:gap-12 grid-cols-2 md:grid-cols-4 lg:grid-cols-7 ">
           {clientLogos.map(client => (
-            <a
-              href="#"
-              class="flex justify-center items-center h-full w-20 md:w-28 lg:w-full"
-            >
+            <div class="flex justify-center items-center h-full w-20 md:w-28 lg:w-full">
               <img src={client} alt="" />
-            </a>
+            </div>
           ))}
         </div>
       </div>

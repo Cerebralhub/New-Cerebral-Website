@@ -24,7 +24,7 @@ const Navbar = () => {
           <img src={logo} alt="Cerebral Logo" />
         </Link>
         {/* navbar */}
-        <nav className="hidden md:block">
+        <nav className="hidden lg:block">
           <ul className="flex gap-4 font-semibold *:px-7 *:py-2 *:rounded-full">
             <Link to="/" className={getNavLinkClass("/")}>
               Home
@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
         </nav>
         {/* hamburger icon */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             className="text-greyish-10 hover:text-black focus:outline-none"
             onClick={toggleMenu}

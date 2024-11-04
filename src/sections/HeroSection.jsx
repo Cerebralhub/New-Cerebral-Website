@@ -22,7 +22,7 @@ const HeroSection = () => {
               <div className="mt-8 flex space-x-9">
                 <Link
                   to="/contact"
-                  className="bg-cerebralBlue-700 hover:bg-cerebralOrange-600 text-white font-medium px-7 py-3 rounded-full"
+                  className="hover:bg-cerebralBlue-700 bg-cerebralOrange-600 text-white font-medium px-7 py-3 rounded-full"
                 >
                   Get started
                 </Link>
@@ -30,7 +30,6 @@ const HeroSection = () => {
             </div>
 
             <div className="w-11/12 hidden lg:block">
-              {" "}
               <img src={herogif} alt="A man smiling" />
             </div>
           </div>
