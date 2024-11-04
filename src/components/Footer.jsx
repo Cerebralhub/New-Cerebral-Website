@@ -4,6 +4,7 @@ import facebookSvg from "../assets/svg/facebook.svg";
 import instagramSvg from "../assets/svg/instagram.svg";
 import youtubeSvg from "../assets/svg/youtube.svg";
 import twitterSvg from "../assets/svg/twitter.svg";
+import linkedinSvg from "../assets/svg/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -45,16 +46,20 @@ const Footer = () => {
                 <a href="">
                   <img src={facebookSvg} alt="" className="w-6 h-6" />
                 </a>
+                {/* linkedin link */}
+                <a href="https://www.linkedin.com/company/cerebral-hub/">
+                  <img src={linkedinSvg} alt="" className="w-6 h-6" />
+                </a>
                 {/* youtube link */}
-                <a href="">
+                <a href="https://www.youtube.com/@cerebralhub">
                   <img src={youtubeSvg} alt="" className="w-6 h-6" />
                 </a>
                 {/* instagram link */}
-                <a href="">
+                <a href="https://www.instagram.com/cerebral.hub/profilecard/?igsh=ZmExZG0xdTJyZXY0">
                   <img src={instagramSvg} alt="" className="w-6 h-6" />
                 </a>
                 {/* twitter link */}
-                <a href="">
+                <a href="https://x.com/CerebralHub?t=PrVPHnKnXAzWJbGh0z0Kjw&s=09">
                   <img src={twitterSvg} alt="" className="w-6 h-6" />
                 </a>
               </div>

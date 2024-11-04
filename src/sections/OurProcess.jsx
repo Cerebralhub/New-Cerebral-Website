@@ -3,6 +3,7 @@ import discoverNeedsImage from "../assets/webp/needs.webp";
 import tailoredStrategyImage from "../assets/webp/tailored_strategy.webp";
 import exceptionalResultsImage from "../assets/webp/exceptional_results.webp";
 import arrowSvg from "../assets/svg/right-arrow-svg.svg";
+import {Link} from "react-router-dom";
 
 const features = [
   {
@@ -45,7 +46,7 @@ export const OurProcess = () => {
           </p> */}
         </div>
         {/* cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-8 md:space-y-0 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-8 md:space-y-0 gap-4 mb-10">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center">
               <div className="mb-3 bg-cerebralBlue-700 text-2xl text-white w-16 h-16 rounded-full flex justify-center items-center font-bold">
@@ -69,6 +70,15 @@ export const OurProcess = () => {
               </div> */}
             </div>
           ))}
+        </div>
+        {/* CTA */}
+        <div className="flex justify-center">
+          <Link
+            to="our-work"
+            className="bg-cerebralOrange-600 text-white font-medium px-7 py-3 rounded-full"
+          >
+            See Our Work
+          </Link>
         </div>
       </div>
     </div>

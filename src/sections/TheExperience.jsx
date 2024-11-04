@@ -11,7 +11,7 @@ const TheExperience = () => {
           width="560"
           height="500"
           className=" w-full "
-          src="https://www.youtube.com/embed/cEC-Ch0d7PY?si=zD1ifeWKf0Iol4_S&autoplay=1&mute=1&loop=1"
+          src="https://www.youtube.com/embed/91wWCkmO5H0?si=Hh4zKg3442EVtC6W&autoplay=1&mute=1&loop=1"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -23,7 +23,7 @@ const TheExperience = () => {
       <div className="bg-cerebralOrange-500 flex items-center text-white py-16 lg;py-0 flex-1">
         <div className="w-10/12 md:w-8/12 mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
-            The Experience
+            Bringing stories to life, one frame at a time.
           </h1>
           {/* <button className="text-cerebralOrange-600 bg-white rounded-full px-5 py-3">
             <Link to="/join-us">See Job Vacancies</Link>

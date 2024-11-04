@@ -81,28 +81,22 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      {/* we are here to work with you */}
-      {/* <ImageWithParallelText content={sec2Content} imageSrc={aboutImg2} /> */}
+
       {/* our work speaks for us */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-20 max-w-7xl">
-        {/* parallel texts */}
-        <div className="mb-8 sm:mb-12 md:mb-16">
+      {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-20 max-w-7xl"> */}
+      {/* parallel texts */}
+      {/* <div className="mb-8 sm:mb-12 md:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-8">
             Meet the Team
           </h2>
-          {/* <p className="text-sm sm:text-base text-cerebralGrey-500 lg:w-1/2">
-            We create meaningful content, advise on and incubate public policy
-            as well as simplify information. Our team of professionals is always
-            on the ground to help interpret and express your idea.
-          </p> */}
-        </div>
-        {/* grid images */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 justify-items-center">
+        </div> */}
+      {/* grid images */}
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 justify-items-center">
           {staffImages.map((image, index) => {
             return <img src={image} alt="" />;
           })}
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {/* faq */}
       <FAQ />
     </div>
