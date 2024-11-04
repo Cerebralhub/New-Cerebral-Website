@@ -47,11 +47,12 @@ export const OurProcess = () => {
         {/* cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-8 md:space-y-0 gap-4">
           {features.map((feature, index) => (
-            <div key={index} className="grid">
-              <div className="mb-3 rounded-xl">
-                <img src={feature.image} className=" shadow-lg w-80" />
+            <div key={index} className="flex flex-col items-center">
+              <div className="mb-3 bg-cerebralBlue-700 text-2xl text-white w-16 h-16 rounded-full flex justify-center items-center font-bold">
+                {index + 1}
+                {/* <img src={feature.image} className=" shadow-lg w-80" /> */}
               </div>
-              <div>
+              <div className="text-center">
                 <h3 className="text-xl text-cerebralGrey-700 font-semibold mb-2">
                   {feature.title}
                 </h3>
