@@ -40,7 +40,7 @@ const Navbar = () => {
             </Link>
 
             <a
-              href="https://medium.com/@info_53453"
+              href="https://medium.com/@cerebralhubit"
               target="__blank"
               className="hover:bg-cerebralOrange-600 hover:text-white cursor-pointer"
             >
